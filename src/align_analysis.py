@@ -89,18 +89,27 @@ def protein_aligner():
     return aligner
 
 
-def identity_percent(alignment) -> float:
-    """Exact matches / *all* alignment columns (including gap columns) × 100.
+def identity_percent(alignment, include_gaps: bool = True) -> float:
+    """Calculate the percentage of identical amino acids in an alignment.
 
-    The denominator is explicitly fixed to make pairwise values reproducible.
-    This is identity, not a BLOSUM similarity score or a phylogenetic distance.
+    If include_gaps is True, all alignment columns are counted.
+    Otherwise, columns containing a gap in either sequence are excluded.
+
+    This measures exact identity, not BLOSUM similarity.
     """
     indices = alignment.indices
     matches = sum(
         a >= 0 and b >= 0 and alignment.target[a] == alignment.query[b]
         for a, b in zip(indices[0], indices[1])
     )
-    return round(100.0 * matches / indices.shape[1], 2)
+    aligned_columns = sum(
+        a >= 0 and b >= 0
+        for a, b in zip(indices[0], indices[1])
+    )
+
+    denominator = indices.shape[1] if include_gaps else aligned_columns
+
+    return round(100.0 * matches / denominator, 2) if denominator else 0.0
 
 
 def write_csv(path: Path, rows: list[dict], fieldnames: list[str]):
@@ -186,7 +195,8 @@ def main() -> None:
             alignment = aligner.align(proteins[names[0]], proteins[name])[0]
             handle.write(f"{names[0]} vs {name}\n")
             handle.write(f"Global BLOSUM62; open gap -10, extend gap -0.5\n")
-            handle.write(f"Identity: {identity_percent(alignment):.2f}%\n\n")
+            handle.write(f"Identity (including gaps): {identity_percent(alignment):.2f}%\n")
+            handle.write(f"Identity (excluding gaps): {identity_percent(alignment, include_gaps=False):.2f}%\n\n")
             handle.write(str(alignment) + "\n\n")
     for first in names:
         row = {"species": first}

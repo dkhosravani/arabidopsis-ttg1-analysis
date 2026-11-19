@@ -18,22 +18,29 @@ TTG1 is a WD-repeat protein involved in trichome development, root epidermal pat
 
 The species sample includes a Brassicaceae relative, two other eudicots and a monocot. It illustrates different levels of conservation; it was **not** selected by an orthology-inference pipeline.
 
-The Python scripts calculate transcript/CDS GC content, scan candidate ORFs, validate the annotated CDS translation, and compare full-length proteins. **Global** rather than local alignment is used because the comparison concerns the complete proteins, not just a shared short region. Biopython `PairwiseAligner` uses BLOSUM62 with gap-open −10 and gap-extension −0.5; these are fixed conventional settings, not optimized parameters. For the first version, identity is the number of identical amino-acid columns divided by **all alignment columns, including gaps**.
+The Python scripts calculate transcript/CDS GC content, scan candidate ORFs, validate the annotated CDS translation, and compare full-length proteins. **Global** rather than local alignment is used because the comparison concerns the complete proteins, not just a shared short region. Biopython `PairwiseAligner` uses BLOSUM62 with gap-open −10 and gap-extension −0.5; these are fixed conventional settings, not optimized parameters. Sequence identity is calculated both with and without gap-containing columns in the denominator. The heatmap uses the gap-inclusive definition.
 
 ## Results
 
 All four RefSeq mRNAs have different lengths (**1,436–1,831 nt**) but share the same annotated **1,026-nt CDS**. Their translated 341-aa sequences match UniProt Q9XGN1.
 
-| Compared with Arabidopsis TTG1 | Global protein identity |
-| --- | ---: |
-| *Brassica rapa* | 92.96% |
-| *Prunus persica* | 80.81% |
-| *Solanum lycopersicum* | 77.33% |
-| *Oryza sativa* | 60.77% |
+| Species | Identity including gaps | Identity excluding gaps |
+| --- | ---: | ---: |
+| *Brassica rapa* | 92.96% | 94.07% |
+| *Prunus persica* | 80.81% | 82.01% |
+| *Solanum lycopersicum* | 77.33% | 78.47% |
+| *Oryza sativa* | 60.77% | 65.87% |
+
+
+The two identity values are calculated from the same global alignments.
+The first uses all alignment columns as the denominator, while the
+second excludes columns containing gaps.
+
+Excluding gap columns increased identity by 1.11–1.20 percentage points
+for Brassica, Prunus and Solanum, and by 5.10 points for Oryza sativa.
+The heatmap below uses the gap-inclusive values.
 
 ![Identity matrix of five plant proteins](results/figures/identity_heatmap.png)
-
-The four WD repeats annotated in the Arabidopsis reference occupy residues **74–118, 130–170, 173–211 and 262–302**. They are imported from UniProt, not predicted de novo.
 
 ![UniProt WD-repeat map](results/figures/wd40_map.png)
 
@@ -44,7 +51,7 @@ Additional plots: [mRNA sliding-window GC](results/figures/gc_profile.png) · [c
 Requires Python 3.11+.
 
 ```bash
-python3 -m venv .venv
+python3 -m venv .venvFor the first version, identity is t
 source .venv/bin/activate  # macOS/Linux
 python -m pip install -r requirements.txt
 python -m src.align_analysis

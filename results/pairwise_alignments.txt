@@ -1,6 +1,7 @@
 Arabidopsis_thaliana vs Brassica_rapa
 Global BLOSUM62; open gap -10, extend gap -0.5
-Identity: 92.96%
+Identity (including gaps): 92.96%
+Identity (excluding gaps): 94.07%
 
 target            0 MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSSSGHRIAVGSFLEDYNNRIDILSFDS
                   0 |||||||||.|||||||||||||||||.|----|||.|||||||||||||||||||||||
@@ -29,7 +30,8 @@ query           296 NGIDPMSVYSAGSEINQLQWSSSLPDWIGIAFANKMQLLRV 337
 
 Arabidopsis_thaliana vs Prunus_persica
 Global BLOSUM62; open gap -10, extend gap -0.5
-Identity: 80.81%
+Identity (including gaps): 80.81%
+Identity (excluding gaps): 82.01%
 
 target            0 MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSSS---GHRIAVGSFLEDYNNRIDILS
                   0 |.|||..|....|..|||.|||||||||||......---.||||||||.|.|.||.||||
@@ -58,7 +60,8 @@ query           298 AGPNGIDPMSMYSAGAEINQLQWSAAQPDWISIAFSNKMQLLKV 342
 
 Arabidopsis_thaliana vs Solanum_lycopersicum
 Global BLOSUM62; open gap -10, extend gap -0.5
-Identity: 77.33%
+Identity (including gaps): 77.33%
+Identity (excluding gaps): 78.47%
 
 target            0 MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSS---SGHRIAVGSFLEDYNNRIDILS
                   0 |.||...|..|||..|||||.||.|||||||..||---...|.|||||.|..|||.||||
@@ -87,7 +90,8 @@ query           298 AGPNGIDPMSVYTAGAEINQIQWSAAQRDWIAITFSNKLQLLKV 342
 
 Arabidopsis_thaliana vs Oryza_sativa
 Global BLOSUM62; open gap -10, extend gap -0.5
-Identity: 60.77%
+Identity (including gaps): 60.77%
+Identity (excluding gaps): 65.87%
 
 target            0 MDNSAPDSLSRS------ETAVTYDSPYPLYAMAFSSLRSSSGHRIAVGSFLEDYNNRID
                   0 |....|.|...|------..|.|...|...||.||----|.|....|.||||||..||..

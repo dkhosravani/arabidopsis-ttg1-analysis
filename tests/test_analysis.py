@@ -50,5 +50,20 @@ class AlignmentTests(unittest.TestCase):
         self.assertLess(identity_percent(alignment), 100.0)
 
 
-if __name__ == "__main__":
-    unittest.main()
+
+    def test_identity_with_and_without_gaps(self):
+        aligner = Align.PairwiseAligner()
+        aligner.mode = "global"
+        aligner.match_score = 2
+        aligner.mismatch_score = -5
+        aligner.open_gap_score = -1
+
+        alignment = aligner.align("ACG", "ACTG")[0]
+
+        self.assertEqual(identity_percent(alignment), 75.0)
+        self.assertEqual(
+            identity_percent(alignment, include_gaps=False),
+            100.0
+        )
+    if __name__ == "__main__":
+        unittest.main()

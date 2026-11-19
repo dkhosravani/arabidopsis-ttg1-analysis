@@ -1,0 +1,6 @@
+species,Arabidopsis_thaliana,Brassica_rapa,Prunus_persica,Solanum_lycopersicum,Oryza_sativa
+Arabidopsis_thaliana,100.0,92.96,80.81,77.33,60.77
+Brassica_rapa,92.96,100.0,78.9,75.58,60.61
+Prunus_persica,80.81,78.9,100.0,82.46,61.64
+Solanum_lycopersicum,77.33,75.58,82.46,100.0,58.9
+Oryza_sativa,60.77,60.61,61.64,58.9,100.0

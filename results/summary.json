@@ -1,0 +1,13 @@
+{
+  "gene": "TTG1 / AT5G24520",
+  "reference_mrna": "NM_122360.2",
+  "reference_protein": "Q9XGN1",
+  "reference_protein_length_aa": 341,
+  "reference_annotated_CDS_matches_UniProt": true,
+  "transcript_count": 4,
+  "homolog_species_count_including_reference": 5,
+  "wd40_repeat_count": 4,
+  "pairwise_alignment_method": "global BLOSUM62; gap open -10; gap extend -0.5",
+  "identity_definition": "identical residues divided by all alignment columns (including gaps)",
+  "scope_note": "Homology supported by source literature; one-to-one orthology and species phylogeny not inferred."
+}

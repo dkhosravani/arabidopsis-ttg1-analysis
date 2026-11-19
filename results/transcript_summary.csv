@@ -1,0 +1,5 @@
+accession,mrna_length_nt,mrna_gc_percent,annotated_cds_length_nt,cds_gc_percent,annotated_protein_length_aa,protein_exact_match_to_UniProt_Q9XGN1
+NM_122360.2,1491,43.863,1026,46.101,341,True
+NM_180738.3,1831,40.415,1026,46.101,341,True
+NM_180739.2,1436,44.15,1026,46.101,341,True
+NM_001343878.1,1493,43.737,1026,46.101,341,True

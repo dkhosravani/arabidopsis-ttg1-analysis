@@ -1,0 +1,144 @@
+LOCUS       NM_122360               1491 bp    mRNA    linear   PLN 20-OCT-2022
+DEFINITION  Arabidopsis thaliana Transducin/WD40 repeat-like superfamily
+            protein (TTG1), mRNA.
+ACCESSION   NM_122360
+VERSION     NM_122360.2
+DBLINK      BioProject: PRJNA116
+            BioSample: SAMN03081427
+KEYWORDS    RefSeq.
+SOURCE      Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (bases 1 to 1491)
+  AUTHORS   Tabata,S., Kaneko,T., Nakamura,Y., Kotani,H., Kato,T., Asamizu,E.,
+            Miyajima,N., Sasamoto,S., Kimura,T., Hosouchi,T., Kawashima,K.,
+            Kohara,M., Matsumoto,M., Matsuno,A., Muraki,A., Nakayama,S.,
+            Nakazaki,N., Naruo,K., Okumura,S., Shinpo,S., Takeuchi,C., Wada,T.,
+            Watanabe,A., Yamada,M., Yasuda,M., Sato,S., de la Bastide,M.,
+            Huang,E., Spiegel,L., Gnoj,L., O'Shaughnessy,A., Preston,R.,
+            Habermann,K., Murray,J., Johnson,D., Rohlfing,T., Nelson,J.,
+            Stoneking,T., Pepin,K., Spieth,J., Sekhon,M., Armstrong,J.,
+            Becker,M., Belter,E., Cordum,H., Cordes,M., Courtney,L.,
+            Courtney,W., Dante,M., Du,H., Edwards,J., Fryman,J., Haakensen,B.,
+            Lamar,E., Latreille,P., Leonard,S., Meyer,R., Mulvaney,E.,
+            Ozersky,P., Riley,A., Strowmatt,C., Wagner-McPherson,C., Wollam,A.,
+            Yoakum,M., Bell,M., Dedhia,N., Parnell,L., Shah,R., Rodriguez,M.,
+            See,L.H., Vil,D., Baker,J., Kirchoff,K., Toth,K., King,L.,
+            Bahret,A., Miller,B., Marra,M., Martienssen,R., McCombie,W.R.,
+            Wilson,R.K., Murphy,G., Bancroft,I., Volckaert,G., Wambutt,R.,
+            Dusterhoft,A., Stiekema,W., Pohl,T., Entian,K.D., Terryn,N.,
+            Hartley,N., Bent,E., Johnson,S., Langham,S.A., McCullagh,B.,
+            Robben,J., Grymonprez,B., Zimmermann,W., Ramsperger,U., Wedler,H.,
+            Balke,K., Wedler,E., Peters,S., van Staveren,M., Dirkse,W.,
+            Mooijman,P., Lankhorst,R.K., Weitzenegger,T., Bothe,G., Rose,M.,
+            Hauf,J., Berneiser,S., Hempel,S., Feldpausch,M., Lamberth,S.,
+            Villarroel,R., Gielen,J., Ardiles,W., Bents,O., Lemcke,K.,
+            Kolesov,G., Mayer,K., Rudd,S., Schoof,H., Schueller,C.,
+            Zaccaria,P., Mewes,H.W., Bevan,M. and Fransz,P.
+  CONSRTM   Kazusa DNA Research Institute; Cold Spring Harbor and Washington
+            University in St Louis Sequencing Consortium; European Union
+            Arabidopsis Genome Sequencing Consortium
+  TITLE     Sequence and analysis of chromosome 5 of the plant Arabidopsis
+            thaliana
+  JOURNAL   Nature 408 (6814), 823-826 (2000)
+   PUBMED   11130714
+REFERENCE   2  (bases 1 to 1491)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2022) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1491)
+  AUTHORS   Krishnakumar,V., Cheng,C.-Y., Chan,A.P., Schobel,S., Kim,M.,
+            Ferlanti,E.S., Belyaeva,I., Rosen,B.D., Micklem,G., Miller,J.R.,
+            Vaughn,M. and Town,C.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Plant Genomics, J. Craig Venter Institute,
+            9704 Medical Center Dr, Rockville, MD 20850, USA
+  REMARK    Protein update by submitter
+REFERENCE   4  (bases 1 to 1491)
+  AUTHORS   Swarbreck,D., Lamesch,P., Wilks,C. and Huala,E.
+  CONSRTM   TAIR
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-FEB-2011) Department of Plant Biology, Carnegie
+            Institution, 260 Panama Street, Stanford, CA, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by TAIR and Araport.
+            This record is derived from an annotated genomic sequence
+            (NC_003076).
+            
+            On May 13, 2003 this sequence version replaced NM_122360.1.
+FEATURES             Location/Qualifiers
+     source          1..1491
+                     /organism="Arabidopsis thaliana"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:3702"
+                     /chromosome="5"
+                     /ecotype="Columbia"
+     gene            1..1491
+                     /gene="TTG1"
+                     /locus_tag="AT5G24520"
+                     /gene_synonym="ATTTG1; K18P6.4; K18P6_4; TRANSPARENT TESTA
+                     GLABRA 1; TTG; UNARMED 23; URM23"
+                     /note="Required for the accumulation of purple
+                     anthocyanins in leaves and stems. Involved in trichome and
+                     root hair development. Controls epidermal cell fate
+                     specification. Affects dihydroflavonol 4-reductase gene
+                     expression. It is thought that a ternary complex composed
+                     of TT2, TT8 and TTG1 is necessary for correct expression
+                     of BAN in seed endothelium. Based on clonal analysis and
+                     other methonds TTG1 has been shown to act non-cell
+                     autonomously and to move via plasmodesmata between
+                     cells.Localization and levels of TTG1 affect patterning of
+                     leaf trichomes. Auxin and ethylene responsiveness of TTG1
+                     transcription is lost in myb12 mutants."
+                     /db_xref="Araport:AT5G24520"
+                     /db_xref="GeneID:832523"
+                     /db_xref="TAIR:AT5G24520"
+     CDS             115..1140
+                     /gene="TTG1"
+                     /locus_tag="AT5G24520"
+                     /gene_synonym="ATTTG1; K18P6.4; K18P6_4; TRANSPARENT TESTA
+                     GLABRA 1; TTG; UNARMED 23; URM23"
+                     /codon_start=1
+                     /product="Transducin/WD40 repeat-like superfamily protein"
+                     /protein_id="NP_197840.1"
+                     /db_xref="GeneID:832523"
+                     /db_xref="Araport:AT5G24520"
+                     /db_xref="TAIR:AT5G24520"
+                     /translation="MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSSSGHRIAVGS
+                     FLEDYNNRIDILSFDSDSMTVKPLPNLSFEHPYPPTKLMFSPPSLRRPSSGDLLASSG
+                     DFLRLWEINEDSSTVEPISVLNNSKTSEFCAPLTSFDWNDVEPKRLGTCSIDTTCTIW
+                     DIEKSVVETQLIAHDKEVHDIAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQP
+                     DTPLLRLAWNKQDLRYMATILMDSNKVVILDIRSPTMPVAELERHQASVNAIAWAPQS
+                     CKHICSGGDDTQALIWELPTVAGPNGIDPMSVYSAGSEINQLQWSSSQPDWIGIAFAN
+                     KMQLLRV"
+ORIGIN      
+        1 attgattatt tctccgtctc ttgaaaaatc cgactgacac tgacctcaaa actctcctct
+       61 cactttcgtc gtgaagaagc caaatctcga atcgaatcag caccacacat ttccatggat
+      121 aattcagctc cagattcgtt atccagatcg gaaaccgccg tcacatacga ctcaccatat
+      181 ccactctacg ccatggcttt ctcttctctc cgctcatcct ccggtcacag aatcgccgtc
+      241 ggaagcttcc tcgaagatta caacaaccgc atcgacattc tctctttcga ttccgattca
+      301 atgaccgtta agcctctccc gaatctctcc ttcgagcatc cttatcctcc aacaaagcta
+      361 atgttcagtc ctccttctct ccgtcgtcct tcctccggag atctcctcgc ttcctccggc
+      421 gatttcctcc gtctttggga aattaacgaa gattcatcaa ccgtcgagcc aatctcggtt
+      481 ctcaacaaca gcaaaacgag cgagttttgt gcgccgttga cttccttcga ttggaacgat
+      541 gtagagccga aacgtctcgg aacttgtagt attgatacga cgtgtacgat ttgggatatt
+      601 gagaagtctg ttgttgagac tcagcttata gctcatgata aagaggttca tgacattgct
+      661 tggggagaag ctagggtttt cgcatcagtc tctgctgatg gatccgttag gatctttgat
+      721 ttacgtgata aggaacattc tacaatcatt tacgagagtc ctcagcctga tacgcctttg
+      781 ttaagacttg cttggaacaa acaagatctt agatatatgg ctacgatttt gatggattct
+      841 aataaggttg tgattctcga tattcgttcg ccgactatgc ctgttgctga gcttgaaaga
+      901 catcaggcta gtgtgaatgc tatagcttgg gcgcctcaga gctgtaaaca tatttgttct
+      961 ggtggtgatg atacacaggc tcttatttgg gagcttccta ctgttgctgg acccaatggg
+     1021 attgatccga tgtcggttta ttcggctggt tcggagatta atcagttgca gtggtcttct
+     1081 tcgcagcctg attggattgg tattgctttt gctaacaaaa tgcagctcct tagagtttga
+     1141 gaaacatata gaagtggaat tggaaacttc atgctggttt gaacatcttt gtgcagatgt
+     1201 gaagtgatca ataaggattt tagcatagac ccgtataatc gtcatgtgcg taagtaggtt
+     1261 tggtttgcgc tccctctcgc ttttaggtcc gcaatgactc tgtatctatc tgattgtaac
+     1321 taaaactgaa ttcatttgat gaaccaaatg atactattat cttatgttgt gtataaaacc
+     1381 caaccaggat atattgcggt ttctggtgtt tagatttggt aattggagct tagtacaatg
+     1441 caaccctgtc ttgctttatt ggacgtctct aagataaatc agcttgcaat g
+//
+

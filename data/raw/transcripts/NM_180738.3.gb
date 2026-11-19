@@ -1,0 +1,186 @@
+LOCUS       NM_180738               1831 bp    mRNA    linear   PLN 20-OCT-2022
+DEFINITION  Arabidopsis thaliana Transducin/WD40 repeat-like superfamily
+            protein (TTG1), mRNA.
+ACCESSION   NM_180738
+VERSION     NM_180738.3
+DBLINK      BioProject: PRJNA116
+            BioSample: SAMN03081427
+KEYWORDS    RefSeq.
+SOURCE      Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (bases 1 to 1831)
+  AUTHORS   Tabata,S., Kaneko,T., Nakamura,Y., Kotani,H., Kato,T., Asamizu,E.,
+            Miyajima,N., Sasamoto,S., Kimura,T., Hosouchi,T., Kawashima,K.,
+            Kohara,M., Matsumoto,M., Matsuno,A., Muraki,A., Nakayama,S.,
+            Nakazaki,N., Naruo,K., Okumura,S., Shinpo,S., Takeuchi,C., Wada,T.,
+            Watanabe,A., Yamada,M., Yasuda,M., Sato,S., de la Bastide,M.,
+            Huang,E., Spiegel,L., Gnoj,L., O'Shaughnessy,A., Preston,R.,
+            Habermann,K., Murray,J., Johnson,D., Rohlfing,T., Nelson,J.,
+            Stoneking,T., Pepin,K., Spieth,J., Sekhon,M., Armstrong,J.,
+            Becker,M., Belter,E., Cordum,H., Cordes,M., Courtney,L.,
+            Courtney,W., Dante,M., Du,H., Edwards,J., Fryman,J., Haakensen,B.,
+            Lamar,E., Latreille,P., Leonard,S., Meyer,R., Mulvaney,E.,
+            Ozersky,P., Riley,A., Strowmatt,C., Wagner-McPherson,C., Wollam,A.,
+            Yoakum,M., Bell,M., Dedhia,N., Parnell,L., Shah,R., Rodriguez,M.,
+            See,L.H., Vil,D., Baker,J., Kirchoff,K., Toth,K., King,L.,
+            Bahret,A., Miller,B., Marra,M., Martienssen,R., McCombie,W.R.,
+            Wilson,R.K., Murphy,G., Bancroft,I., Volckaert,G., Wambutt,R.,
+            Dusterhoft,A., Stiekema,W., Pohl,T., Entian,K.D., Terryn,N.,
+            Hartley,N., Bent,E., Johnson,S., Langham,S.A., McCullagh,B.,
+            Robben,J., Grymonprez,B., Zimmermann,W., Ramsperger,U., Wedler,H.,
+            Balke,K., Wedler,E., Peters,S., van Staveren,M., Dirkse,W.,
+            Mooijman,P., Lankhorst,R.K., Weitzenegger,T., Bothe,G., Rose,M.,
+            Hauf,J., Berneiser,S., Hempel,S., Feldpausch,M., Lamberth,S.,
+            Villarroel,R., Gielen,J., Ardiles,W., Bents,O., Lemcke,K.,
+            Kolesov,G., Mayer,K., Rudd,S., Schoof,H., Schueller,C.,
+            Zaccaria,P., Mewes,H.W., Bevan,M. and Fransz,P.
+  CONSRTM   Kazusa DNA Research Institute; Cold Spring Harbor and Washington
+            University in St Louis Sequencing Consortium; European Union
+            Arabidopsis Genome Sequencing Consortium
+  TITLE     Sequence and analysis of chromosome 5 of the plant Arabidopsis
+            thaliana
+  JOURNAL   Nature 408 (6814), 823-826 (2000)
+   PUBMED   11130714
+REFERENCE   2  (bases 1 to 1831)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2022) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1831)
+  AUTHORS   Krishnakumar,V., Cheng,C.-Y., Chan,A.P., Schobel,S., Kim,M.,
+            Ferlanti,E.S., Belyaeva,I., Rosen,B.D., Micklem,G., Miller,J.R.,
+            Vaughn,M. and Town,C.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2016) Plant Genomics, J. Craig Venter Institute,
+            9704 Medical Center Dr, Rockville, MD 20850, USA
+  REMARK    Protein update by submitter
+REFERENCE   4  (bases 1 to 1831)
+  AUTHORS   Swarbreck,D., Lamesch,P., Wilks,C. and Huala,E.
+  CONSRTM   TAIR
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-FEB-2011) Department of Plant Biology, Carnegie
+            Institution, 260 Panama Street, Stanford, CA, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by TAIR and Araport.
+            This record is derived from an annotated genomic sequence
+            (NC_003076).
+            
+            On Sep 12, 2016 this sequence version replaced NM_180738.2.
+FEATURES             Location/Qualifiers
+     source          1..1831
+                     /organism="Arabidopsis thaliana"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:3702"
+                     /chromosome="5"
+                     /ecotype="Columbia"
+     gene            1..1831
+                     /gene="TTG1"
+                     /locus_tag="AT5G24520"
+                     /gene_synonym="ATTTG1; K18P6.4; K18P6_4; TRANSPARENT TESTA
+                     GLABRA 1; TTG; UNARMED 23; URM23"
+                     /note="Required for the accumulation of purple
+                     anthocyanins in leaves and stems. Involved in trichome and
+                     root hair development. Controls epidermal cell fate
+                     specification. Affects dihydroflavonol 4-reductase gene
+                     expression. It is thought that a ternary complex composed
+                     of TT2, TT8 and TTG1 is necessary for correct expression
+                     of BAN in seed endothelium. Based on clonal analysis and
+                     other methonds TTG1 has been shown to act non-cell
+                     autonomously and to move via plasmodesmata between
+                     cells.Localization and levels of TTG1 affect patterning of
+                     leaf trichomes. Auxin and ethylene responsiveness of TTG1
+                     transcription is lost in myb12 mutants."
+                     /db_xref="Araport:AT5G24520"
+                     /db_xref="GeneID:832523"
+                     /db_xref="TAIR:AT5G24520"
+     CDS             115..1140
+                     /gene="TTG1"
+                     /locus_tag="AT5G24520"
+                     /gene_synonym="ATTTG1; K18P6.4; K18P6_4; TRANSPARENT TESTA
+                     GLABRA 1; TTG; UNARMED 23; URM23"
+                     /inference="Similar to RNA sequence,
+                     EST:INSD:ES120794.1,INSD:EH829593.1,INSD:F20055.1,
+                     INSD:AV831829.1,INSD:DR749771.1,INSD:EL250426.1,
+                     INSD:EG509480.1,INSD:EL026563.1,INSD:EG512947.1,
+                     INSD:BP854164.1,INSD:F20056.1,INSD:EL295407.1,
+                     INSD:EG512945.1,INSD:EH903673.1,INSD:ES120542.1,
+                     INSD:EH947572.1,INSD:ES019266.1,INSD:AV519244.1,
+                     INSD:EL165582.1,INSD:ES141538.1,INSD:EH837984.1,
+                     INSD:DR368499.1,INSD:AV565898.1,INSD:DR368502.1,
+                     INSD:EH888297.1,INSD:ES184977.1,INSD:AV817945.1,
+                     INSD:AU226293.1,INSD:EH814032.1,INSD:EL277853.1,
+                     INSD:DR368503.1,INSD:BP562708.2,INSD:BP813698.1,
+                     INSD:AV535056.1,INSD:DR368500.1,INSD:ES112358.1,
+                     INSD:EL023404.1,INSD:ES079622.1,INSD:ES035472.1,
+                     INSD:BP592752.1,INSD:DR368501.1,INSD:EL148285.1,
+                     INSD:DR749772.1,INSD:BP635485.1,INSD:BP628292.1,
+                     INSD:EL128155.1,INSD:BP658189.1,INSD:DR383263.1,
+                     INSD:DR368498.1,INSD:EL087908.1"
+                     /inference="similar to RNA sequence,
+                     mRNA:INSD:BT020231.1,INSD:BX831543.1,INSD:BX831455.1,
+                     INSD:AK227211.1,INSD:BX830656.1,INSD:BT011856.1,
+                     INSD:BT020513.1"
+                     /note="TRANSPARENT TESTA GLABRA 1 (TTG1); CONTAINS
+                     InterPro DOMAIN/s: WD40 repeat 2 (InterPro:IPR019782),
+                     WD40 repeat-like-containing domain (InterPro:IPR011046),
+                     WD40 repeat, conserved site (InterPro:IPR019775),
+                     WD40-repeat-containing domain (InterPro:IPR017986),
+                     WD40/YVTN repeat-like-containing domain
+                     (InterPro:IPR015943), WD40 repeat (InterPro:IPR001680),
+                     WD40 repeat, subgroup (InterPro:IPR019781); BEST
+                     Arabidopsis thaliana protein match is: Transducin/WD40
+                     repeat-like superfamily protein (TAIR:AT1G12910.1); Has
+                     6142 Blast hits to 5599 proteins in 374 species: Archae -
+                     8; Bacteria - 429; Metazoa - 2235; Fungi - 1639; Plants -
+                     1018; Viruses - 0; Other Eukaryotes - 813 (source: NCBI
+                     BLink)."
+                     /codon_start=1
+                     /product="Transducin/WD40 repeat-like superfamily protein"
+                     /protein_id="NP_851069.1"
+                     /db_xref="GeneID:832523"
+                     /db_xref="TAIR:AT5G24520"
+                     /db_xref="Araport:AT5G24520"
+                     /translation="MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSSSGHRIAVGS
+                     FLEDYNNRIDILSFDSDSMTVKPLPNLSFEHPYPPTKLMFSPPSLRRPSSGDLLASSG
+                     DFLRLWEINEDSSTVEPISVLNNSKTSEFCAPLTSFDWNDVEPKRLGTCSIDTTCTIW
+                     DIEKSVVETQLIAHDKEVHDIAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQP
+                     DTPLLRLAWNKQDLRYMATILMDSNKVVILDIRSPTMPVAELERHQASVNAIAWAPQS
+                     CKHICSGGDDTQALIWELPTVAGPNGIDPMSVYSAGSEINQLQWSSSQPDWIGIAFAN
+                     KMQLLRV"
+ORIGIN      
+        1 attgattatt tctccgtctc ttgaaaaatc cgactgacac tgacctcaaa actctcctct
+       61 cactttcgtc gtgaagaagc caaatctcga atcgaatcag caccacacat ttccatggat
+      121 aattcagctc cagattcgtt atccagatcg gaaaccgccg tcacatacga ctcaccatat
+      181 ccactctacg ccatggcttt ctcttctctc cgctcatcct ccggtcacag aatcgccgtc
+      241 ggaagcttcc tcgaagatta caacaaccgc atcgacattc tctctttcga ttccgattca
+      301 atgaccgtta agcctctccc gaatctctcc ttcgagcatc cttatcctcc aacaaagcta
+      361 atgttcagtc ctccttctct ccgtcgtcct tcctccggag atctcctcgc ttcctccggc
+      421 gatttcctcc gtctttggga aattaacgaa gattcatcaa ccgtcgagcc aatctcggtt
+      481 ctcaacaaca gcaaaacgag cgagttttgt gcgccgttga cttccttcga ttggaacgat
+      541 gtagagccga aacgtctcgg aacttgtagt attgatacga cgtgtacgat ttgggatatt
+      601 gagaagtctg ttgttgagac tcagcttata gctcatgata aagaggttca tgacattgct
+      661 tggggagaag ctagggtttt cgcatcagtc tctgctgatg gatccgttag gatctttgat
+      721 ttacgtgata aggaacattc tacaatcatt tacgagagtc ctcagcctga tacgcctttg
+      781 ttaagacttg cttggaacaa acaagatctt agatatatgg ctacgatttt gatggattct
+      841 aataaggttg tgattctcga tattcgttcg ccgactatgc ctgttgctga gcttgaaaga
+      901 catcaggcta gtgtgaatgc tatagcttgg gcgcctcaga gctgtaaaca tatttgttct
+      961 ggtggtgatg atacacaggc tcttatttgg gagcttccta ctgttgctgg acccaatggg
+     1021 attgatccga tgtcggttta ttcggctggt tcggagatta atcagttgca gtggtcttct
+     1081 tcgcagcctg attggattgg tattgctttt gctaacaaaa tgcagctcct tagagtttga
+     1141 ggtgcagatg tgaagtgatc aataaggatt ttagcataga cccgtataat cgtcatgtgc
+     1201 gtaagtaggt ttggtttgcg ctccctctcg cttttaggtc cgcaatgact ctgtatctat
+     1261 ctgattgtaa ctaaaactga attcatttga tgaaccaaat gatactatta tcttatgttg
+     1321 tgtataaaac ccaaccagga tatattgcgg tttctggtgt ttagatttgg taattggagc
+     1381 ttagtacaat gcaaccctgt cttgctttat tggacgtctc taagataaat cagcttgcaa
+     1441 tgaattccaa tggagtttgt cagtttgaat taacttcttt gcataattaa cacaaagatt
+     1501 tgcagtataa attccattgg aagacttatt tgtttatttg acacagattt aaattgaatt
+     1561 tcaatggagt ttcagtcgac tatgtgacac aaagatttga aatgaactcc aatgggaatt
+     1621 tggtgagtaa attattataa acaatccaat gtttgacaca aatattttag aatcttcaca
+     1681 tctgaagtct tataaatcgt agcaaaattt tcaatcttga aaattataaa aaatgagaat
+     1741 taatttaaat cactgatccg ataatctcct ctagaaatat aagaatctat aaaccattaa
+     1801 tagtagaatt ccaaaatgtt ataaatctat a
+//
+

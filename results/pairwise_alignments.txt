@@ -1,0 +1,120 @@
+Arabidopsis_thaliana vs Brassica_rapa
+Global BLOSUM62; open gap -10, extend gap -0.5
+Identity: 92.96%
+
+target            0 MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSSSGHRIAVGSFLEDYNNRIDILSFDS
+                  0 |||||||||.|||||||||||||||||.|----|||.|||||||||||||||||||||||
+query             0 MDNSAPDSLPRSETAVTYDSPYPLYAMSF----SSSTHRIAVGSFLEDYNNRIDILSFDS
+
+target           60 DSMTVKPLPNLSFEHPYPPTKLMFSPPSLRRPSSGDLLASSGDFLRLWEINEDSSTVEPI
+                 60 |||..||||.|||||||||||||||||||||...|||||||||||||||.|||||..||.
+query            56 DSMSLKPLPSLSFEHPYPPTKLMFSPPSLRRSGGGDLLASSGDFLRLWEVNEDSSSAEPV
+
+target          120 SVLNNSKTSEFCAPLTSFDWNDVEPKRLGTCSIDTTCTIWDIEKSVVETQLIAHDKEVHD
+                120 |||||||||||||||||||||||||||||||||||||||||.|.||||||||||||||||
+query           116 SVLNNSKTSEFCAPLTSFDWNDVEPKRLGTCSIDTTCTIWDVERSVVETQLIAHDKEVHD
+
+target          180 IAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQPDTPLLRLAWNKQDLRYMATILM
+                180 |||||||||||||||||||||||||||||||||||||||||||||||||||||.||||||
+query           176 IAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQPDTPLLRLAWNKQDLRCMATILM
+
+target          240 DSNKVVILDIRSPTMPVAELERHQASVNAIAWAPQSCKHICSGGDDTQALIWELPTVAGP
+                240 ||||||||||||||||||||||||.|||||||||||||||||||||.|||||||||.|||
+query           236 DSNKVVILDIRSPTMPVAELERHQGSVNAIAWAPQSCKHICSGGDDAQALIWELPTMAGP
+
+target          300 NGIDPMSVYSAGSEINQLQWSSSQPDWIGIAFANKMQLLRV 341
+                300 |||||||||||||||||||||||.||||||||||||||||| 341
+query           296 NGIDPMSVYSAGSEINQLQWSSSLPDWIGIAFANKMQLLRV 337
+
+
+Arabidopsis_thaliana vs Prunus_persica
+Global BLOSUM62; open gap -10, extend gap -0.5
+Identity: 80.81%
+
+target            0 MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSSS---GHRIAVGSFLEDYNNRIDILS
+                  0 |.|||..|....|..|||.|||||||||||......---.||||||||.|.|.||.||||
+query             0 MENSAQESHLGQENSVTYESPYPLYAMAFSPSQTRNRHQHHRIAVGSFIEEYSNRVDILS
+
+target           57 FDSDSMTVKPLPNLSFEHPYPPTKLMFSPPSLRRPSSGDLLASSGDFLRLWEINEDSSTV
+                 60 ||.|...|||.|.|||.||||||||||.|.......|.|.||||||.|||.|...--|.|
+query            60 FDPDTLSVKPNPTLSFDHPYPPTKLMFHPNPNSLHKSNDVLASSGDYLRLREVRD--SSV
+
+target          117 EPISVLNNSKTSEFCAPLTSFDWNDVEPKRLGTCSIDTTCTIWDIEKSVVETQLIAHDKE
+                120 |||.|||||||||||||||||||||.||.|.||.|||||||||||||.||||||||||||
+query           118 EPIQVLNNSKTSEFCAPLTSFDWNDIEPRRIGTSSIDTTCTIWDIEKGVVETQLIAHDKE
+
+target          177 VHDIAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQPDTPLLRLAWNKQDLRYMAT
+                180 |.||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           178 VYDIAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQPDTPLLRLAWNKQDLRYMAT
+
+target          237 ILMDSNKVVILDIRSPTMPVAELERHQASVNAIAWAPQSCKHICSGGDDTQALIWELPTV
+                240 ||||||||||||||||||||||||||.|||||||||||||.||||.||||||||||||||
+query           238 ILMDSNKVVILDIRSPTMPVAELERHRASVNAIAWAPQSCRHICSAGDDTQALIWELPTV
+
+target          297 AGPNGIDPMSVYSAGSEINQLQWSSSQPDWIGIAFANKMQLLRV 341
+                300 ||||||||||.||||.||||||||..|||||.|||.||||||.| 344
+query           298 AGPNGIDPMSMYSAGAEINQLQWSAAQPDWISIAFSNKMQLLKV 342
+
+
+Arabidopsis_thaliana vs Solanum_lycopersicum
+Global BLOSUM62; open gap -10, extend gap -0.5
+Identity: 77.33%
+
+target            0 MDNSAPDSLSRSETAVTYDSPYPLYAMAFSSLRSS---SGHRIAVGSFLEDYNNRIDILS
+                  0 |.||...|..|||..|||||.||.|||||||..||---...|.|||||.|..|||.||||
+query             0 MENSSQESHLRSENSVTYDSSYPIYAMAFSSFTSSLTNRRRRLAVGSFIEEFNNRVDILS
+
+target           57 FDSDSMTVKPLPNLSFEHPYPPTKLMFSPPSLRRPSSGDLLASSGDFLRLWEINEDSSTV
+                 60 ||.|..|.||.||||||||||||||||.|.........|.||||||.||||.....|--.
+query            60 FDEDTLTLKPVPNLSFEHPYPPTKLMFHPNPSASLKTNDILASSGDYLRLWDVTDTS--I
+
+target          117 EPISVLNNSKTSEFCAPLTSFDWNDVEPKRLGTCSIDTTCTIWDIEKSVVETQLIAHDKE
+                120 ||...|.|.||||.||||||||||.|||.|.||.||||||||||.||.||||||||||||
+query           118 EPLFTLSNNKTSEYCAPLTSFDWNEVEPRRIGTSSIDTTCTIWDVEKGVVETQLIAHDKE
+
+target          177 VHDIAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQPDTPLLRLAWNKQDLRYMAT
+                180 |.|||||||.|||||||||||||||||||||||||||||.||||||||||||||||||||
+query           178 VYDIAWGEAGVFASVSADGSVRIFDLRDKEHSTIIYESPKPDTPLLRLAWNKQDLRYMAT
+
+target          237 ILMDSNKVVILDIRSPTMPVAELERHQASVNAIAWAPQSCKHICSGGDDTQALIWELPTV
+                240 |||||||.||||||||.|||||||||||||||||||||||.||||||||.||||||||||
+query           238 ILMDSNKIVILDIRSPAMPVAELERHQASVNAIAWAPQSCRHICSGGDDGQALIWELPTV
+
+target          297 AGPNGIDPMSVYSAGSEINQLQWSSSQPDWIGIAFANKMQLLRV 341
+                300 ||||||||||||.||.||||.|||..|.|||.|.|.||.|||.| 344
+query           298 AGPNGIDPMSVYTAGAEINQIQWSAAQRDWIAITFSNKLQLLKV 342
+
+
+Arabidopsis_thaliana vs Oryza_sativa
+Global BLOSUM62; open gap -10, extend gap -0.5
+Identity: 60.77%
+
+target            0 MDNSAPDSLSRS------ETAVTYDSPYPLYAMAFSSLRSSSGHRIAVGSFLEDYNNRID
+                  0 |....|.|...|------..|.|...|...||.||----|.|....|.||||||..||..
+query             0 MEQPKPPSVAASAAEAQNPNAFTCELPHSIYALAF----SPSAPVLAAGSFLEDLHNRVS
+
+target           54 ILSFD---SDSMTVKPLPNLSFEHPYPPTKLMFSPPSLRRPSSGDLLASSGDFLRLW--E
+                 60 .||||---........||.|||.||||||||.|.|---|..|...|||||.|.||||--.
+query            56 LLSFDPVHPTAASFRALPALSFDHPYPPTKLQFHP---RAASAPHLLASSSDALRLWLAP
+
+target          109 INEDSSTV-----EPISVLNNSKT--SEFCAPLTSFDWNDVEPKRLGTCSIDTTCTIWDI
+                120 ......|.-----|..|||.|.||--|||||||||||||..||.|.||.|||||||||||
+query           113 LDDLAATATAAAPELRSVLDNRKTSASEFCAPLTSFDWNEAEPRRIGTASIDTTCTIWDI
+
+target          162 EKSVVETQLIAHDKEVHDIAWGEARVFASVSADGSVRIFDLRDKEHSTIIYESPQPDTPL
+                180 |..|||||||||||.||||||||...|||||||||||.|||||||||||.||||.|||||
+query           173 ERGVVETQLIAHDKAVHDIAWGENGIFASVSADGSVRVFDLRDKEHSTIFYESPRPDTPL
+
+target          222 LRLAWNKQDLRYMATILMDSNKVVILDIRSPTMPVAELERHQASVNAIAWAPQSCKHICS
+                240 ||||||..|..||||.||||..||.||.|.|..|||||.||.|..||.|||||...|.||
+query           233 LRLAWNRYDFHYMATLLMDSSAVVVLDMRAPGVPVAELHRHRACANAVAWAPQATRHLCS
+
+target          282 GGDDTQALIWELPTVAG---PNGIDPMSVYSAGSEINQLQWSSSQPDWIGIAFANKMQLL
+                300 .|||.||||||||...|---..||||..||.||.|||||||....|.||.|||.||.|||
+query           293 AGDDGQALIWELPATPGAVPAEGIDPVMVYDAGAEINQLQWAAAYPEWISIAFENKVQLL
+
+target          339 RV 341
+                360 || 362
+query           353 RV 355
+
+

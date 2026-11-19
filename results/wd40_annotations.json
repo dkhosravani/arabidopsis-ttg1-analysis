@@ -1,0 +1,26 @@
+[
+  {
+    "label": "WD 1",
+    "start_aa": 74,
+    "end_aa": 118,
+    "source": "Q9XGN1"
+  },
+  {
+    "label": "WD 2",
+    "start_aa": 130,
+    "end_aa": 170,
+    "source": "Q9XGN1"
+  },
+  {
+    "label": "WD 3",
+    "start_aa": 173,
+    "end_aa": 211,
+    "source": "Q9XGN1"
+  },
+  {
+    "label": "WD 4",
+    "start_aa": 262,
+    "end_aa": 302,
+    "source": "Q9XGN1"
+  }
+]

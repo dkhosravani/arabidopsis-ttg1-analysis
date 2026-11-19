@@ -10,6 +10,12 @@ Do the four annotated Arabidopsis TTG1 transcripts encode different proteins? Ho
 
 TTG1 is a WD-repeat protein involved in trichome development, root epidermal patterning and anthocyanin biosynthesis ([NCBI Gene 832523](https://www.ncbi.nlm.nih.gov/gene/832523)).
 
+## Why I chose TTG1
+
+I first worked with the TTG1 gene (*AT5G24520*) during the *Grundlagen der Genomforschung II* laboratory course at Bielefeld University. Our group investigated CRISPR-mutant *Arabidopsis thaliana* plants using PCR, NcoI restriction digestion and agarose gel electrophoresis. We compared the genotyping results with visible plant traits, particularly leaf trichomes.
+
+I chose to continue working with TTG1 in this Python project to examine the same gene from a sequence-analysis perspective. Here, I focus on its transcripts, protein sequence and conserved WD-repeat regions using publicly available sequence data.
+
 ## Data and approach
 
 - **Arabidopsis transcripts:** `NM_122360.2`, `NM_180738.3`, `NM_180739.2` and `NM_001343878.1` (NCBI RefSeq GenBank records, including annotated coding sequences).

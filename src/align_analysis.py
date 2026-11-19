@@ -128,7 +128,7 @@ def identity_in_reference_region(alignment, start_aa: int, end_aa: int) -> float
 
 def write_csv(path: Path, rows: list[dict], fieldnames: list[str]):
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 

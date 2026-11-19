@@ -7,7 +7,7 @@ from Bio.Seq import Seq
 
 from src.align_analysis import (annotated_cds, gc_percent, identity_percent,
                                 protein_aligner, scan_orfs, sliding_gc)
-
+from src.align_analysis import identity_in_reference_region
 
 class SequenceTests(unittest.TestCase):
     def test_gc_percentage(self):
@@ -65,5 +65,17 @@ class AlignmentTests(unittest.TestCase):
             identity_percent(alignment, include_gaps=False),
             100.0
         )
-    if __name__ == "__main__":
-        unittest.main()
+    def test_identity_in_reference_region(self):
+        aligner = Align.PairwiseAligner()
+        aligner.mode = "global"
+        aligner.match_score = 2
+        aligner.mismatch_score = -5
+        aligner.open_gap_score = -1
+
+        alignment = aligner.align("ACTG", "ACG")[0]
+
+        self.assertEqual(identity_in_reference_region(alignment, 1, 4), 75.0)
+        self.assertEqual(identity_in_reference_region(alignment, 3, 3), 0.0)
+        self.assertEqual(identity_in_reference_region(alignment, 1, 2), 100.0)
+if __name__ == "__main__":
+    unittest.main()

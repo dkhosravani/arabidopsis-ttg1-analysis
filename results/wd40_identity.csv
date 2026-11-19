@@ -1,0 +1,17 @@
+species,region,start_aa,end_aa,wd_identity_percent,full_reference_identity_percent
+Brassica_rapa,WD1,74,118,86.67,92.96
+Brassica_rapa,WD2,130,170,95.12,92.96
+Brassica_rapa,WD3,173,211,100.0,92.96
+Brassica_rapa,WD4,262,302,92.68,92.96
+Prunus_persica,WD1,74,118,57.78,81.52
+Prunus_persica,WD2,130,170,87.8,81.52
+Prunus_persica,WD3,173,211,97.44,81.52
+Prunus_persica,WD4,262,302,92.68,81.52
+Solanum_lycopersicum,WD1,74,118,55.56,78.01
+Solanum_lycopersicum,WD2,130,170,82.93,78.01
+Solanum_lycopersicum,WD3,173,211,94.87,78.01
+Solanum_lycopersicum,WD4,262,302,95.12,78.01
+Oryza_sativa,WD1,74,118,53.33,64.52
+Oryza_sativa,WD2,130,170,82.93,64.52
+Oryza_sativa,WD3,173,211,87.18,64.52
+Oryza_sativa,WD4,262,302,63.41,64.52

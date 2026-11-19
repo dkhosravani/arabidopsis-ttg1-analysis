@@ -98,6 +98,49 @@ def plot_wd40():
     fig.tight_layout()
     export(fig, "wd40_map")
 
+def plot_wd40_identity():
+    rows = load_csv("wd40_identity.csv")
+    species = list(dict.fromkeys(row["species"] for row in rows))
+    regions = ["WD1", "WD2", "WD3", "WD4"]
+
+    values = []
+
+    for name in species:
+        selected = [row for row in rows if row["species"] == name]
+        by_region = {
+            row["region"]: float(row["wd_identity_percent"])
+            for row in selected
+        }
+        whole = float(selected[0]["full_reference_identity_percent"])
+        values.append([by_region[region] for region in regions] + [whole])
+
+    matrix = np.array(values)
+    fig, ax = plt.subplots(figsize=(8.8, 4.7))
+    image = ax.imshow(matrix, cmap="YlGn", vmin=0, vmax=100)
+
+    labels = regions + ["Whole reference"]
+    ax.set_xticks(range(len(labels)), labels)
+    ax.set_yticks(
+        range(len(species)),
+        [name.replace("_", " ") for name in species]
+    )
+    ax.tick_params(axis="both", length=0)
+    ax.axvline(3.5, color="white", linewidth=2)
+
+    for i in range(len(species)):
+        for j in range(len(labels)):
+            score = matrix[i, j]
+            ax.text(
+                j, i, f"{score:.1f}%",
+                ha="center", va="center",
+                color="white" if score > 75 else INK,
+                fontweight="semibold"
+            )
+
+    ax.set_title("TTG1: identity at reference WD-repeat positions", pad=15)
+    fig.colorbar(image, ax=ax, label="Reference-site identity (%)")
+    fig.tight_layout()
+    export(fig, "wd40_identity_heatmap")
 
 def plot_orfs():
     orfs = [row for row in load_csv("orf_candidates.csv") if row["accession"] == "NM_122360.2"]
@@ -123,8 +166,9 @@ def main():
     plot_gc()
     plot_identity()
     plot_wd40()
+    plot_wd40_identity()
     plot_orfs()
-    print(f"Created four figures (PNG and SVG) in {PLOTS.relative_to(PLOTS.parents[1])}")
+    print(f"Created five figures (PNG and SVG) in {PLOTS.relative_to(PLOTS.parents[1])}")
 
 
 if __name__ == "__main__":

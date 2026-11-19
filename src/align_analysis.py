@@ -111,6 +111,20 @@ def identity_percent(alignment, include_gaps: bool = True) -> float:
 
     return round(100.0 * matches / denominator, 2) if denominator else 0.0
 
+def identity_in_reference_region(alignment, start_aa: int, end_aa: int) -> float:
+    """Calculate identity for a region of the Arabidopsis reference protein."""
+    if not (1 <= start_aa <= end_aa <= len(alignment.target)):
+        raise ValueError("Invalid reference region coordinates")
+
+    matches = 0
+
+    for ref_pos, other_pos in zip(*alignment.indices):
+        if start_aa - 1 <= ref_pos < end_aa:
+            if other_pos >= 0 and alignment.target[ref_pos] == alignment.query[other_pos]:
+                matches += 1
+
+    region_length = end_aa - start_aa + 1
+    return round(100.0 * matches / region_length, 2)
 
 def write_csv(path: Path, rows: list[dict], fieldnames: list[str]):
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -207,6 +221,39 @@ def main() -> None:
         matrix.append(row)
     write_csv(OUTPUT / "pairwise_identity_matrix.csv", matrix, ["species"] + names)
 
+    wd40_rows = []
+
+    for species in names[1:]:
+        alignment = aligner.align(reference_protein, proteins[species])[0]
+
+        full_identity = identity_in_reference_region(
+            alignment, 1, len(reference_protein)
+        )
+
+        for number, repeat in enumerate(wd40, start=1):
+            wd40_rows.append({
+                "species": species,
+                "region": f"WD{number}",
+                "start_aa": repeat["start_aa"],
+                "end_aa": repeat["end_aa"],
+                "wd_identity_percent": identity_in_reference_region(
+                    alignment, repeat["start_aa"], repeat["end_aa"]
+                ),
+                "full_reference_identity_percent": full_identity,
+            })
+
+    write_csv(
+        OUTPUT / "wd40_identity.csv",
+        wd40_rows,
+        [
+            "species",
+            "region",
+            "start_aa",
+            "end_aa",
+            "wd_identity_percent",
+            "full_reference_identity_percent",
+        ],
+    )
     summary = {
         "gene": "TTG1 / AT5G24520",
         "reference_mrna": "NM_122360.2",

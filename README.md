@@ -43,6 +43,22 @@ The heatmap below uses the gap-inclusive values.
 ![Identity matrix of five plant proteins](results/figures/identity_heatmap.png)
 
 ![UniProt WD-repeat map](results/figures/wd40_map.png)
+### Conservation within WD repeats
+
+I compared sequence identity within the four WD-repeat regions annotated
+in the Arabidopsis TTG1 reference protein (UniProt Q9XGN1). Each region
+was evaluated using its reference coordinates after global alignment.
+Gaps opposite reference residues were counted as non-matches.
+
+WD3 showed high identity across all four selected proteins (87.18–100%).
+In contrast, WD1 had the lowest identity among the four WD repeats
+in every comparison (53.33–86.67%).
+
+The "Whole reference" values use the same reference-position denominator
+as the WD-region calculations. They are therefore not directly identical
+to the gap-inclusive identity values in the earlier heatmap.
+
+![WD40 regional identity heatmap](results/figures/wd40_identity_heatmap.png)
 
 Additional plots: [mRNA sliding-window GC](results/figures/gc_profile.png) · [candidate ORFs](results/figures/orf_candidates.png). The corresponding CSV tables and alignments are in [`results/`](results/); the original source records and a SHA-256 manifest are in [`data/`](data/).
 

@@ -2,8 +2,7 @@
 
 Python · Biopython · Molecular genetics · Protein alignment
 
-I first worked with the **TTG1 gene (AT5G24520)** during an Arabidopsis CRISPR-genotyping practical at Bielefeld University. That work involved DNA extraction, PCR, gel electrophoresis and NcoI digestion. This repository is a **separate computational follow-up** using public reference sequences, not a reanalysis of my laboratory samples.
-
+This project is a **separate computational follow-up** to my Arabidopsis TTG1 CRISPR-genotyping laboratory practical at Bielefeld University. It uses publicly available reference sequences, not my original laboratory samples.
 ## Question
 
 Do the four annotated Arabidopsis TTG1 transcripts encode different proteins? How much of the TTG1 protein sequence is retained in selected plants from other families?
@@ -73,7 +72,7 @@ Additional plots: [mRNA sliding-window GC](results/figures/gc_profile.png) · [c
 Requires Python 3.11+.
 
 ```bash
-python3 -m venv .venvFor the first version, identity is t
+python3 -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 python -m pip install -r requirements.txt
 python -m src.align_analysis
@@ -87,7 +86,9 @@ Raw inputs are included, so these steps run offline. To download the accession-c
 
 This is a small, literature-guided comparison of **homologous proteins**, not proof that every pair represents a one-to-one ortholog. Identity depends on alignment settings and denominator; it cannot by itself establish a species tree. The ORF scan is exploratory, whereas coding regions come from NCBI annotations. GC profiles are calculated on **mRNA**, not genomic DNA.
 
-For a next step, I want to compare sequence identity **within each WD-repeat region** against the full protein. A separate, sample-aware extension could examine the NcoI restriction site in the genomic PCR amplicon used in the university practical; the experimental alleles are not part of this dataset.
+The comparison of identity within the four annotated WD-repeat regions is now included in this project. WD3 showed consistently high sequence identity, whereas WD1 was more variable across the selected proteins. This pattern may suggest differences in sequence conservation, but sequence identity alone cannot establish functional effects.
+
+A useful next step would be to include more plant species and perform a multiple sequence alignment to investigate whether this pattern persists across a broader set of homologous proteins. A separate extension could examine the NcoI restriction site used in the university laboratory practical, using sample-specific genomic data that are not part of this project.
 
 ## Sources
 
